@@ -29,7 +29,7 @@ nano first.txt<br>
 
 4. 更新→gitへプッシュ<br>
 git add .<br>
-git commit -m "message"<br>
+git commit -m "変更内容"<br>
 git push<br><br>
 
 ここで、git config --global とかなんとか言われると思う。<br>
@@ -37,4 +37,11 @@ git push<br><br>
 もう一度 git pushしたら行ける<br>
 
 5. GitHubで確認<br>
-GitHubでラズパイ上のフォルダ内と同期してるか確認！終了！<br>
+GitHubでラズパイ上のフォルダ内と同期してるか確認！終了！<br><br><br>
+
+### 重要なコマンド
+- git clone [URL]
+- git add .
+- git commit -m "変更内容"
+- git push
+
